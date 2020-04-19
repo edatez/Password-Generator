@@ -20,6 +20,13 @@ function generatePassword() {
   var passwordLength = parseInt(prompt("length of the password"))
   if (passwordLength < 8 || passwordLength > 128) {
     alert("inValid Password Length");
+  }
+  else {
+  var validNumbers =confirm("Would you like to include numbers?");
+
+  }
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
